@@ -23,7 +23,7 @@ public class BlobApp {
 		pst.executeUpdate();
 		System.out.println("\n\t==ID and Image Inserted Succeessfully==");
 		
-		String sql1="select * from imgblob";
+		String sql1="select * from blob";
 		Statement st=con.createStatement();
 		ResultSet	rs=st.executeQuery(sql1);
 		System.out.println("\n\n\t ID \t Image");
