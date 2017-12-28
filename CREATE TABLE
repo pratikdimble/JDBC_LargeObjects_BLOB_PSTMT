@@ -1,0 +1,5 @@
+
+
+SQL> CREATE TABLE BLOB (ID NUMBER primary key, IMAGE BLOB);
+
+Table created.
